@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #f3f3f3;
+  margin: 0;
+  line-height: 1.4;
+  }
+body::before{
+  content: '';
+  position:fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: #1b1b32;
+  background-image: linear-gradient(130deg, rgba(58, 58, 158,0.8), rgba( 136, 136, 206, 0.7)), url(https://img.freepik.com/fotos-gratis/equipe-de-administradores-de-banco-de-dados-analisando-o-codigo-fonte-na-tv-de-tela-de-parede-comparando-erros-usando-tablet-digital-na-sala-de-servidores-ocupada-dois-programadores-de-nuvem-depurando-algoritmo-no-escritorio-de-inovacao-de-software_482257-43976.jpg?w=1480&t=st=1689122316~exp=1689122916~hmac=2cd088b1c2274a82f8c012936c1a3022c2cc75e10fd7293ed72aaeda1f4e9797);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header{
+  margin-top: 5rem;
+  text-align: center;
+  position: relative;
+  z-index:1;
+}
+.pheader{
+  font-style: italic;
+  margin-top: -0.9rem;
+}
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container{
+  width:500px;
+  border: 1px;
+  position:relative;
+  max-height: 100vh;
+}
+.box{
+  background-color: rgb(40, 40, 70, 0.8);
+  padding:1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.form-inputs {
+  display:block;
+  margin:5px;
+  margin-bottom:20px;
+  font-family:inherit;
+}
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  width:100%
+  }
+.form-values{
+  display: block;
+  width: 450px;
+  padding:0.25rem;
+  margin-top: 2px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+.checkbox-wrapper{
+  display: flex;
+  padding: 0.25rem;
+}
+.input-checkbox, .input-radio{
+  margin-right: 0.5rem;
+  display: inline-block;
+  min-height: 1rem;
+  min-width: 1rem;
+  font-family:inherit;
+  font-size:inherit;
+}
+.textarea-input{
+  height:120px;
+  width:100%;
+  resize: vertical;
+  font-family:inherit;
+  font-size:inherit;
+  border-radius: 0.2rem;
+  justify-content: center;
+  align-items: center;
+
+}
+.submit-button{
+  display: block;
+  width:100%;
+  padding: 0.5rem;
+  font-family:inherit;
+  font-size: inherit;
+  background: rgb(55, 175, 101);
+  color: #f3f3f3;
+  border-radius:0.25rem;
+}
